@@ -99,3 +99,34 @@ h1 {
 .emoji-picker span:hover {
   transform: scale(1.3);
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .todo-container {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .filters button {
+    width: 100%;
+  }
+
+  .todo {
+    font-size: 1rem;
+  }
+}
